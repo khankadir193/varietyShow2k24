@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Variety Show 2k24</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="language-btn" onclick="selectLang()">
+        <div id="selectedLang">English</div>
+        <div class="triangle_down"></div>
+    </div>
+    <div id="language-box">
+        <div class="language">
+            <button onclick="onLanguageChange('english')">English</button>
+            <hr />
+            <button onclick="onLanguageChange('hindi')">Hindi</button>
+        </div>
+    </div>
+    <div class="header">
+        <img src="./img/header.png" alt="" class="w-100">
+    </div>
+    <div class="join-now">
+        <a href="http://www.kktv1.com/m/?roomid=71123">
+            <img src="./img/Join_now_button.png" alt="" class="w-100">
+    </div>
+    </a>
+    <div class="how-to-participate">
+        <div class="tag"><img src="./img/HTP_banner.png" alt=" " class="w-100"></div>
+        <div class="col2">
+            <div><img src="./img/pointer.png" alt="" class="w-100"></div>
+            <div class="english">The event will first start with a self-introduction by the streamers. Participants will
+                also be required to select the gift they wish to receive. (5-minute duration)</div>
+            <div class="hindi">Ye event streamers ke self introduction se start hoga uske baad participants ko gift
+                select karni hogi jo wo pana chahte ho. (5 mins duration)</div>
+        </div>
+        <div class="col2">
+            <div><img src="./img/pointer.png" alt="" class="w-100"></div>
+            <div class="english">After the introduction, the host will introduce the game to the participants.</div>
+            <div class="hindi">Introduction and gift selection ke bad host aapko game se introduce karayega.</div>
+        </div>
+        <div class="col2">
+            <div><img src="./img/pointer.png" alt="" class="w-100"></div>
+            <div class="english">The event is divided into the following phases:<br />
+                Phase 1 will be "Dumb charades” (15-minute duration).<br />
+                Phase 2 will be “Guess the SPY” (15-minute duration).<br />
+                Phase 3 will be the “Gifting Round” (5-minute duration).
+
+            </div>
+            <div class="hindi"> Is event me following 3 phases me divided hai : <br />
+                Phase 1 "Dumb charades” hoga. (15 mins duration)<br />
+                Phase 2 “Guess the SPY” hoga. (15 mins duration)<br />
+                Phase 3 “Gifting Round” hoga. (5 mins duration)
+            </div>
+        </div>
+        <div class="col2">
+            <div><img src="./img/pointer.png" alt="" class="w-100"></div>
+            <div class="english">
+                After the three phases, there will be a conclusion round where the calculations for the event winner
+                will be made.
+            </div>
+            <div class="hindi">
+                Sare phase khatam hone ke bad conclusion round hoga jisme event winner declare kiya jayega.
+            </div>
+        </div>
+    </div>
+    <div class="rewards-border">
+        <div class="rewards">
+            <div class="tag"><img src="./img/rewards_banner.png" alt=" " class="w-100"></div>
+            <div id="r1" class="demo1">
+                <div class="reward-rank">Rank 1</div>
+                <div class="reward-target">Target - 400,000 beans</div>
+                <div class="r-col2">
+                    <div class="r-col-img"><img src="./img/Rewards/banner_display.png" alt="" class="w-100"></div>
+                    <!-- <div class="r-col-img"><img src="./img/Rewards/Bunny_profile_frame.png" alt="" class="w-100"></div> -->
+                    <div class="r-col-img"><img src="./img/Rewards/gems.png" alt="" class="w-100"></div>
+                </div>
+                <div class="reward-des">3 Days banner in app + 50,000 gems reward</div>
+            </div>
+            <div id="r2" class="demo1">
+                <div class="reward-rank">Rank 2</div>
+                <div class="reward-target">Target - 200,000 beans</div>
+                <div class="r-col2">
+                    <div class="r-col-img"><img src="./img/Rewards/banner_display.png" alt="" class="w-100"></div>
+                    <!-- <div class="r-col-img"><img src="./img/Rewards/Bunny_profile_frame.png" alt="" class="w-100"></div> -->
+                    <div class="r-col-img"><img src="./img/Rewards/gems.png" alt="" class="w-100"></div>
+                </div>
+                <div class="reward-des">3 Days banner in app + 25,000 gems reward</div>
+            </div>
+            <div id="r3" class="demo1">
+                <div class="reward-rank">Rank 3/4/5</div>
+                <!-- <div class="reward-target">Target - xxxxx beans</div> -->
+                <!-- <div class="r-col3">
+                    <div class="r-col-img"><img src="./img/Rewards/banner_display.png" alt="" class="w-100"></div>
+                    <div class="r-col-img"><img src="./img/Rewards/Bunny_profile_frame.png" alt="" class="w-100"></div>
+                    <div class="r-col-img"><img src="./img/Rewards/Freshers_Show.png" alt="" class="w-100"></div>
+                </div> -->
+                <div class="r-col2">
+                    <div class="r-col-img"><img src="./img/Rewards/banner_display.png" alt="" class="w-100"></div>
+                    <div class="r-col-img"><img src="./img/Rewards/Bunny_profile_frame.png" alt="" class="w-100"></div>
+                </div>
+                <div class="reward-des">3 Days banner in app + 3 Days Bunny Profile Frame</div>
+            </div>
+            <!-- <div id="r4" class="demo1">
+                <div class="reward-rank">Rank 4/5</div>
+                <div class="reward-target">Target - xxxxx beans</div>
+                <div class="r-col2">
+                    <div class="r-col-img"><img src="./img/Rewards/Bunny_profile_frame.png" alt="" class="w-100"></div>
+                    <div class="r-col-img"><img src="./img/Rewards/Freshers_Show.png" alt="" class="w-100"></div>
+                </div>
+                <div class="reward-des">3 Days Bunny Profile Frame + 1 show in fresherbuzz for
+                    upcoming week</div>
+            </div> -->
+            <div class="dot">
+                <button class=" demo0 active" id="dot1" onclick=" infofunc('dot1', 'r1',1)"></button>
+                <button class="demo0" id="dot2" onclick="infofunc('dot2', 'r2',2)"></button>
+                <button class="demo0" id="dot3" onclick="infofunc('dot3', 'r3',3)"></button>
+                <!-- <button class="demo0" onclick="infofunc(event, 'r4')"></button> -->
+            </div>
+        </div>
+    </div>
+    <div class="game-phase1">
+        <div class="title english">Phase 1: “Dumb charades” (15-minute duration)</div>
+        <div class="title hindi">PHASE 1 “Dumb charades” (15 mins duration)</div>
+
+        <div class="des english">● In this event phase, the host will send you a movie name in your inbox.</div>
+        <div class="des hindi">● Iss phase me host aapko ek movie ka naam aapke inbox me bhejega.</div>
+
+        <div class="des english">● Your role will be to stay on mute and act by making gestures, and the other participants will have to guess the movie. </div>
+        <div class="des hindi">● Aapka role ye hoga ke aapko mute par reh kar gestures karne honge aur baki participant ko aapke gestures ke through movie ka naam guess karna hoga.</div>
+
+        <div class="des english">● If a participant guesses the movie correctly, then that participant will receive 2 points, and the person enacting will receive 1 point.</div>
+        <div class="des hindi">● Agar koe participant movie ka naam correctly guess kar leta hai to usse 2 points milenge aur jo enact karega usse 1 point milega. </div>
+
+        <div class="des english">● Each participant will get an equal chance to enact the movie, but the non-enacting participants will only get 3 guesses. </div>
+        <div class="des hindi">● Har participants ko equal chance milenga enact karne ke liye aur har non enancting participant ko 3 guesses milenge movie guess karne ke liye.</div>
+
+        
+        <!-- <div class="table0">
+            <div class="c2 c20">
+                <div class="c2-header">Streamers Position</div>
+                <div class="c2-header standingLine">Points</div>
+            </div>
+            <div class="c2">
+                <div>1</div>
+                <div class="standingLine">10</div>
+            </div>
+            <div class="c2">
+                <div> 2</div>
+                <div class="standingLine">7</div>
+            </div>
+            <div class="c2">
+                <div> 3</div>
+                <div class="standingLine">5</div>
+            </div>
+            <div class="c2">
+                <div> 4</div>
+                <div class="standingLine">0</div>
+            </div>
+            <div class="c2">
+                <div> 5</div>
+                <div class="standingLine">0</div>
+            </div>
+        </div>  -->
+
+
+        <div class="des english">●  The event will start with the host in the first position, then move on to the second position, so on and so forth.</div>
+        <div class="des hindi">● Event ke start me host first position par hoga, phir second position, so on and so forth.</div>
+
+        <div class="des english">● At the start of the round, all the streamers will begin with 10 points.</div>
+        <div class="des hindi">● Iss event phase ke start me sabhi streamers ko 10 points milenge. </div>
+
+        <div class="des english">●	If you fail to give the correct answer, 1 point will be deducted from your score.</div>
+        <div class="des hindi">●  Agar aap wrong Guess the SPY bolte ho to aapke score me se 1 point deduct kar diya jayega.</div>
+
+        <div class="des english">● The scorekeeping will continue for the entire duration of the event.</div>
+        <div class="des hindi">● The scorekeeping will continue for the entire duration of the event.</div>
+
+        <div class="des english">● At the end of 15 minutes, the remaining points will contribute to your total score.</div>
+        <div class="des hindi">● 15 minutes khatam hone ke baad, talents ke bache hue points unke total score me count kiye jayenge.</div>
+
+    </div>
+
+    <div class="game-phase2">
+        <div class="title english">PHASE 2 “Guess the SPY” (15 mins duration) </div>
+        <div class="title hindi">PHASE 2 “Guess the SPY” (15 mins duration)</div>
+        
+        <div class="des english">● The host will give one similar word to 7 streamers and a different word to one specific streamer, who will be the SPY. Each word will be sent privately to the respective streamer's chatbox.</div>
+        <div class="des hindi">● Host 7 streamers ko ek similar word dega aur ek streamer ko ek different word dega jo SPY hoga. Har ek streamer ko unke chatbox mein words privately bheje jayenge.</div>
+
+        <div class="des english">● Each streamer will have 10 seconds to describe their word without directly revealing the actual word. </div>
+        <div class="des hindi">● Har streamer ko apne word ko describe karne ke liye 10 seconds milenge, bina asli word reveal kiye.</div>
+
+        <div class="des english">● After all streamers have finished describing their words, everyone must guess which streamer is the SPY. </div>
+        <div class="des hindi ">● 	Sab streamers ko apna word describe karne ke baad guess karna hoga ki kaun SPY hai. </div>
+
+        <div class="des english">● The streamer who correctly guesses the SPY will earn 1 point, which will be added to their virtual bag.</div>
+        <div class="des hindi">● Jo streamer sahi guess karega ki SPY kaun hai, uske virtual bag mein 1 point add kiya jayega.</div>
+
+        <div class="des english">● If you fail to guess the SPY, no point will be deducted from your existing score.</div>
+        <div class="des hindi ">●  Agar aap SPY guess nahi kar paate, to aapke score me se koi point deduct nahi kiya jayega. </div>
+
+        <div class="des english">● You will be eliminated if you answer three questions incorrectly.</div>
+        <div class="des hindi">● Agar aap 3x baar galat jawab dete ho, to aap eliminate ho jaoge.</div>
+    
+        <div class="des english">●	You can only be revived by receiving a “Roadster-i8” gift (valued at 20,000 Beans).  </div>
+        <div class="des hindi">● Aap revive sirf tabhi honge, jab aapko “Roadster-i8” gift (valued at 20000 beans) receive ho.</div>
+        
+        
+        
+
+
+       
+        <!-- <div class="des english">● You can only be revived back to the event by receiving a “Love- Cano” gift (valued at
+            25,000 virtual coins).</div> -->
+        <!-- <div class="des hindi">●  Aap event me revive sirf tab ho sakte ho jab aap ko gift me “Love-cano” gift (valued
+            25,000 virtual coins) mile.</div> -->
+
+            
+    </div>
+    <div class="game-phase3">
+        <div class="title english">Phase 3: “Gifting Round” (5-minute duration) </div>
+        <div class="title hindi">PHASE 3 “Gifting Round” (5-minute duration) </div>
+
+        <div class="des english">● Participants will have to introduce themselves and show their talent or some skills
+            for solicitation of their favored gifts from users.</div>
+        <div class="des hindi">● Iss round me participants ko introduction dena hoga aur koe talent ya skill dikhana
+            hoga apne man pasand gifts paane ke liye.
+        </div>
+        <div class="table">
+            <div class="c2">
+                <div class="c2-header">Ranks</div>
+                <div class="c2-header">Ranking Board Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div>1st</div>
+                <div>6 Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div>2nd</div>
+                <div>5 Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div>3rd</div>
+                <div>3 Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div>4th - 8th</div>
+                <div>0 Points</div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="game-phase4"> -->
+    <!-- <div class="title english">Phase 4: “Performance Round” (5-minute duration) </div>
+        <div class="title hindi">Phase 4: “Performance Round” (5-minute duration) </div>
+
+        <div class="des english">● In this phase, streamers will have to introduce themselves and show their talent or
+            some skills for the solicitation of their favorite gifts from users.</div>
+        <div class="des hindi">● Is round me participants ko introduction dena hoga aur koe talent ya skill dikhana hoga
+            apne man pasand gifts paane ke liye.</div> -->
+
+    <!-- <div class="des english" style="margin-top: 0;">● Streamers can also acquire "points" from their virtual coins earned in the stream.</div>
+        <div class="des hindi"  style="margin-top: 0;">● Streamers ko points milenge from their virtual coins earned in the stream.</div>
+
+            <div class="des english" style="margin-top: 0;">● Points from the ranking will be given as follows: 1st Rank: 6 points; 2nd Rank: 5 Points; 3rd Rank: 3 Points; 4th/5th Rank: 0 Points</div>
+            <div class="des hindi"  style="margin-top: 0;">● Points from ranking will be given as follows: 1st Rank: 6 points; 2nd Rank: 5 Points 3rd Rank: 3 Points 4th/5th Rank: 0 Points</div> -->
+    <!-- </div> -->
+    <div class="point-calculation">
+        <div class="tag1"><img src="./img/points_banner.png" alt=" " class="w-100"></div>
+        <div class="point-calculation-des english">
+            Final winner will be declared after calculating the total number of points collected at the end of Phase 1 +
+            Phase 2 + Phase 3
+        </div>
+        <div class="point-calculation-des hindi">
+            Winner decide hoga Phase 1 + Phase 2 + Phase 3 ke total points ke total karne ke basis par.
+        </div>
+        <!-- <div class="table">
+            <div class="c2">
+                <div class="c2-header">Ranks</div>
+                <div class="c2-header">Ranking Board Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div>Rank 1</div>
+                <div>6 Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div>Rank 2</div>
+                <div>5 Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div>Rank 3</div>
+                <div>3 Points</div>
+            </div>
+            <div class="line"><img src="./img/line.png" alt="" class="w-100"></div>
+            <div class="c2">
+                <div style="position: relative;left: 3vw;">Rank 4 & 5</div>
+                <div>0 Points</div>
+            </div>
+        </div> -->
+    </div>
+    <div class="footer">
+        <div class="footer-txt">ALL RIGHTS RESERVED.</div>
+    </div>
+    <script>
+        let slideNumber = 1;
+        function infofunc(e, info, snum) {
+            if (snum) {
+                slideNumber = snum;
+            }
+            var i, contentsr1, linkssr1;
+            contentsr1 = document.getElementsByClassName("demo1");
+            for (i = 0; i < contentsr1.length; i++) {
+                contentsr1[i].style.display = "none";
+            }
+            linkssr1 = document.getElementsByClassName("demo0");
+            for (i = 0; i < linkssr1.length; i++) {
+                linkssr1[i].className = linkssr1[i].className.replace(" active", "");
+            }
+            document.getElementById(info).style.display = "block";
+            document.getElementById(e).classList.add("active");
+
+        }
+        setInterval(() => {
+            if (slideNumber < 3)
+                slideNumber = slideNumber + 1;
+            else
+                slideNumber = 1
+            infofunc(`dot${slideNumber}`, `r${slideNumber}`)
+        }, 3000);
+
+
+        const hindi = document.getElementsByClassName("hindi");
+        const english = document.getElementsByClassName("english");
+        let languageBoxOpened = false;
+
+        function selectLang() {
+            languageBoxOpened = !languageBoxOpened;
+            document.getElementById('language-box').style.display = languageBoxOpened ? 'block' : 'none';
+        }
+        function onLanguageChange(val) {
+            languageBoxOpened = false;
+            document.getElementById('language-box').style.display = 'none';
+            if (val === "hindi") {
+                document.getElementById('selectedLang').innerHTML = 'Hindi'
+                for (var i = 0; i < hindi.length; i++) {
+                    hindi[i].style.display = "block";
+                }
+                for (var i = 0; i < english.length; i++) {
+                    english[i].style.display = "none";
+                }
+            } else {
+                document.getElementById('selectedLang').innerHTML = 'English'
+                for (var i = 0; i < english.length; i++) {
+                    english[i].style.display = "block";
+                }
+                for (var i = 0; i < hindi.length; i++) {
+                    hindi[i].style.display = "none";
+                }
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function (event) {
+            document.getElementById("dot1").click();
+        });
+    </script>
+</body>
+
+</html>

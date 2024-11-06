@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(./Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "Roboto-Regular";
+    background: url(./img/bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.join-now {
+    width: 44vw;
+    margin: 0 auto;
+    margin-top: -18vw;
+    margin-bottom: 4vw;
+}
+
+.how-to-participate {
+    background: url(./img/display_box1.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    padding: 7vw 3vw 1vw;
+    margin: 3vw;
+}
+
+.point-calculation {
+    background: url(./img/box\ 2.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    padding: 4vw 0 3vw;
+    margin: 3vw;
+    font-size: 4.5vw !important;
+    line-height: 5vw;
+    margin-top: 7vw;
+    min-height: 25vw;
+}
+
+.rewards {
+    /* border: 2px solid; */
+    background: url(./img/reward_display.png) no-repeat;
+    background-size: 100% 100%;
+    /* border-radius: 2vw; */
+    padding: 6vw 5vw 2vw;
+    text-align: center;
+    /* margin: 8vw 4vw 4vw; */
+}
+
+.rewards-border {
+    background: url(./img/reward_display_box.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 8vw 4vw 4vw;
+    padding: 1vw 1vw 3vw;
+}
+
+.reward-rank {
+    background: url(./img/Reward_rank.png) no-repeat;
+    background-size: 100% 100%;
+    font-size: 4vw;
+    width: 26vw;
+    margin: 0 auto;
+    padding: 1vw 0;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    margin-top: -2vw;
+}
+
+.reward-target {
+    font-size: 4vw;
+}
+
+.r-col1 {
+    display: grid;
+    grid-template-columns: 35%;
+    justify-content: center;
+    margin: 4vw 0;
+}
+
+.r-col2 {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    column-gap: 12%;
+    justify-content: center;
+    margin: 4vw 0;
+}
+
+.r-col3 {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 3%;
+    justify-content: center;
+    margin: 4vw 0;
+}
+
+.r-col-img {
+    background: #030b4c;
+    border-radius: 2vw;
+    padding: 3vw;
+}
+
+.reward-des {
+    font-size: 4vw;
+}
+
+.dot button {
+    width: 2.5vw;
+    height: 2.5vw;
+    display: inline-block;
+    background: #020837;
+    border-radius: 50%;
+    margin-top: 3vw;
+    margin-right: 1vw;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.hindi {
+    display: none;
+}
+
+.how-to-participate .col2 {
+    display: grid;
+    grid-template-columns: 7% auto;
+    column-gap: 0vw;
+    line-height: 5vw;
+    margin-bottom: 1vw;
+    font-size: 3.5vw;
+}
+
+.game-phase1 {
+    background: url(./img/phase1.png) no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 7vw;
+    margin: 3vw;
+}
+
+.game-phase2 {
+    background: url(./img/phase2.png) no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 7vw;
+    margin: 3vw;
+    margin-top: -4vw;
+}
+
+.game-phase3 {
+    background: url(./img/phase3.png) no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 7vw;
+    margin: 3vw;
+    margin-top: -4vw;
+}
+
+.game-phase4 {
+    background: url(./img/phase4.png) no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 11vw;
+    margin: 3vw;
+    min-height: 24vw;
+    margin-top: -4vw;
+}
+
+.title {
+    text-align: center;
+    padding: 4vw 0 1vw;
+    font-size: 3.2vw;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+}
+
+.des {
+    padding: 0 12vw 0 6vw;
+    line-height: 3.2vw;
+    font-size: 2.8vw;
+}
+
+.tag {
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: -11vw;
+    padding-bottom: 1vw;
+}
+
+.tag1 {
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: -8vw;
+}
+
+.table {
+    border: 0.2vw solid yellow;
+    border-radius: 2vw;
+    padding: 1vw 0vw 0;
+    margin-top: 2vw;
+    margin-left: 6vw;
+    margin-right: 17vw;
+    margin-bottom: -1vw;
+}
+
+.table0 {
+    border: 0.2vw solid yellow;
+    border-radius: 2vw;
+    padding: 0vw 0vw 0;
+    margin-top: 2vw;
+    margin-left: 8vw;
+    margin-right: 9vw;
+    margin-bottom: 2vw;
+}
+
+.table0 .c20 {
+
+    border-bottom: 0.2vw solid yellow !important;
+}
+
+.table0 .c2 {
+    border-bottom: 0.2vw solid white;
+    padding-left: 3vw;
+    justify-items: baseline;
+    padding-bottom: 0.3vw;
+    font-size: 2.5vw;
+}
+
+.table0 .c2-header {}
+
+.c2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 3.1vw;
+    justify-items: center;
+}
+
+.c2 div:first-child {
+
+    width: 35%;
+
+    text-align: start;
+
+    /* margin: 0 auto; */
+}
+
+.standingLine {
+
+    border-left: 0.2vw solid white;
+
+    padding-left: 3vw;
+}
+
+.c21 {
+
+    border-bottom: none !important;
+
+    /* padding-left: 0 !important; */
+}
+
+.c2-header {
+    color: #fdfd0d;
+}
+
+.game-phase4 .des {
+    margin-top: 4vw;
+}
+
+.game-phase2 .title {
+    margin-bottom: 1vw;
+    font-size: 3.2vw;
+}
+
+.line {
+    margin-top: -3.5vw;
+    margin-bottom: -0.5vw;
+}
+
+.point-calculation-des {
+    padding: 0 4vw 0 10vw;
+    font-size: 3vw;
+}
+
+.footer {
+    background: url(./img/footer.png) no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 16vw;
+    margin-top: -6vw;
+}
+
+.footer-txt {
+    background: rgb(20 23 104 / 60%);
+    padding: 2vw;
+    width: 60vw;
+    margin: 0 auto;
+    border-radius: 2vw;
+    font-size: 2.5vw;
+    text-align: center;
+    position: relative;
+    top: 13vw;
+}
+
+.strong {
+    color: yellow;
+}
+
+
+
+.dot button.active {
+    background: white;
+}
+
+.language {
+    background: #3448bc;
+    font-size: 4vw;
+    position: absolute;
+    top: 7vw;
+    width: 100vw;
+}
+
+.language button {
+    display: block;
+    color: white;
+    padding: 1vw;
+    width: 100%;
+    text-align: start;
+    font-size: 4vw;
+}
+
+.language-btn {
+    color: white;
+    background: #000639;
+    width: 96vw;
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: 85% 5%;
+    justify-content: space-between;
+    font-size: 4vw;
+}
+
+.triangle_down {
+    content: "";
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    border-right: 1vw solid white;
+    border-top: 1vw solid white;
+    transform: rotate(135deg);
+}
+
+#language-box {
+    display: none;
+}
